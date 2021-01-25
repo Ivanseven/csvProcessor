@@ -1,0 +1,16 @@
+{
+  "name": "salary-calculator",
+  "version": "1.0.0",
+  "description": "Created on 8+ GMT 1:30pm, 25 Jan, 2021\r devEnv: Node v12.13.0",
+  "main": "employee.js",
+  "dependencies": {
+    "csv": "^5.3.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "keywords": []
+}
