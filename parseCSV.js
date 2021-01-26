@@ -11,6 +11,7 @@ module.exports = parseCSV
 // 	console.log(limits, startRow)
 // 	getSalaryInfo(err, entries, limits, startRow)
 // }
+// salaryConfig handling has been moved into salary to reduce file jumps and increase readability
 
 function parseCSV(path){
 	var parser = parse({
