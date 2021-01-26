@@ -1,6 +1,9 @@
 const fs = require("fs")
 const readline = require('readline');
-var path = require('path')
+const path = require('path')
+
+const parseCSV = require('./parseCSV.js')
+
 
 // placeholder
 var moduleName = "salary.js"
@@ -47,7 +50,8 @@ function readCSV(input){
 			} else {  // Input is a String
 				csvName = csvFiles[csvFiles.indexOf(input)]
 			}
-			console.log(csvName)
+			// Current Working Dir + filename
+			parseCSV(process.cwd() + "/"+csvName)
 		}
 }
 
