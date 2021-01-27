@@ -20,8 +20,7 @@ function getInput(fileArr){
 
 	return new Promise((resolve, reject)=>{
 		rl.question( "Index/File:", (answer) => {
-		  // TODO: Log the answer in a database
-		  console.log(`Received: '${answer}'`)
+		  // console.log(`Received: '${answer}'`)
 		  
 		  // Number(answer) = 0; Can use as default answer?
 		  // Verify answer is an integer & in fileArr range
@@ -78,7 +77,7 @@ fs.readdir("./",{"withFileTypes": false}, async function(err, files){
 		console.table(csvFiles)
 		console.log("Please select a CSV to read:")
 		console.log("(Use the index number OR filename)")
-		// console.log(getInput(csvFiles))
+
 		let input = await getInput(csvFiles)
 		readCSV(input)
 	}
