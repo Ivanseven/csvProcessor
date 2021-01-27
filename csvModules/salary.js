@@ -69,7 +69,8 @@ function getSalaryInfo(err, entries){
 		let employeeArr = [name, payPeriod, grossIncome, incomeTax, netIncome, superAmount]
 		csvArray.push(employeeArr)
 	}
-	console.log(csvArray)
+	console.log("Your CSV Array:", csvArray)
+
 	return csvArray
 }
 
