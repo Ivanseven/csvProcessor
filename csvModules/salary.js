@@ -20,6 +20,9 @@ function getSalaryInfo(entries){
 
 				if(income >= lowerLimit && income <= upperLimit){
 					taxableIncome = income - limits[taxBrackets[i]].overAmount
+					if(taxableIncome <= 0){
+						taxableIncome = 0
+					}
 					tax =  (taxableIncome * limits[taxBrackets[i]].rate) + limits[taxBrackets[i]].fixed
 
 					return tax
