@@ -45,10 +45,10 @@ You should see the following:
 
 Either write the entire file name or the index number given (ie: 1)
 
-The following message should appear, showing you where the output was saved:
+A message similar to the following should appear, showing you where the output was saved:
 	
 	Your file was written to:
- 	C:\Code\Projects\Nodejs\salary-calculator/testEmployeesCSV-output.csv
+ 	C:\whereYouGitCloned\csvProcessor\testEmployeesCSV-output.csv
 
 
 ## How to setup Modules (TO DO)
