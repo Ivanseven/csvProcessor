@@ -7,8 +7,7 @@ function getSalaryInfo(err, entries){
 	var startRow = salaryConfig.startRow
 
 	if(err){throw err}
-	// Currently hard coding tax bracket values
-	// Need to make conditions on variable brackets
+		
 	function getIncomeTax(income){
 		// We round up/down to prevent decimals
 		income = Math.round(income)
