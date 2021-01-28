@@ -52,13 +52,13 @@ A message similar to the following should appear, showing you where the output w
 	
 
 ## Setup Modules (To Do)
-------
+
 #### Module Config
 	- TO DO
 	- Will use fileConfig.js later on
 
-## Changing the Salary Config (`salaryConfig.js`):
-------
+## Changing the Salary Configuration (salaryConfig.js):
+
 Using the Resident Tax Rates Table from https://www.ato.gov.au/Rates/Individual-income-tax-rates/#Residents
 
 Resident tax rates 2020–21
@@ -101,8 +101,8 @@ You can achieve the same result with:
 	"0-18200":{"fixed":0, "rate": 0.15, "overAmount": 0}
 
 
-## Using Salary Module (`salary.js`)
-------
+## Using Salary Module (salary.js)
+
 #### (Not required when using csvProcessor)
 
 	// csvModules\salary.js
