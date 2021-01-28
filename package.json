@@ -6,9 +6,11 @@
   "dependencies": {
     "csv": "^5.3.2"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "jest": "^26.6.3"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
     "start": "node fileNav"
   },
   "author": "",
