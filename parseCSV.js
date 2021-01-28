@@ -19,7 +19,8 @@ function parseCSV(path){
 	var parser = parse({
 		columns: false,
 	}, function(err, entries){
-		let csvArray = getSalaryInfo(err, entries)
+		if(err){ throw err}
+		let csvArray = getSalaryInfo(entries)
 		let outputDir = path.split(".csv")[0] + "-output.csv"
 		convert.arrToString(csvArray, outputDir, writeStream)
 	});

@@ -1,12 +1,10 @@
 module.exports = getSalaryInfo
 
 
-function getSalaryInfo(err, entries){
+function getSalaryInfo(entries){
 	const salaryConfig = require('./salaryConfig.js')
 	const limits = salaryConfig.limits
 	var startRow = salaryConfig.startRow
-
-	if(err){throw err}
 		
 	function getIncomeTax(income){
 		// We round up/down to prevent decimals
@@ -68,7 +66,7 @@ function getSalaryInfo(err, entries){
 		let employeeArr = [name, payPeriod, grossIncome, incomeTax, netIncome, superAmount]
 		csvArray.push(employeeArr)
 	}
-	console.log("Your CSV Array:", csvArray)
+	// console.log("Your CSV Array:", csvArray)
 
 	return csvArray
 }
