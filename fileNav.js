@@ -50,7 +50,7 @@ function readCSV(input){
 				csvName = csvFiles[csvFiles.indexOf(input)]
 			}
 			// Current Working Dir + filename
-			parseCSV(process.cwd() + "/"+csvName)
+			parseCSV(process.cwd() + "\\" +csvName)
 		}
 }
 
