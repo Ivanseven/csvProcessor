@@ -83,6 +83,8 @@ We can write the config like so:
 		"180001-Infinity":{"fixed":51667, "rate": 0.45, "overAmount": 180000} 
 	}, startRow:1}
 
+###### Take note that final calculations are rounded to integers.
+
 #### The way the tax calculation works is like this:
 	
 	var income = 50000
@@ -115,7 +117,7 @@ You can achieve the same result with:
 	]
 	getSalaryInfo(entries)
 		
-	
+###### Take note that final calculations are rounded to integers.
 
 ### Project Log Info
 ------
