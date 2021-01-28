@@ -20,7 +20,7 @@
 
 	Using overAmount allows more freedom and only requires one nested object to be open
 */
-let salaryConfig = {limits:{
+const salaryConfig = {limits:{
 	"0-18200":{"fixed":0, "rate": 0, "overAmount": 0},
 	"18201-37000":{"fixed":0, "rate": 0.19, "overAmount": 45000},
 	"37001-87000":{"fixed":3572, "rate": 0.325, "overAmount": 37000},
