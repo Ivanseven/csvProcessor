@@ -121,6 +121,6 @@ You can achieve the same result with:
 
 ### Project Log Info
 ------
-Project started at 8+ GMT 1:30pm, 25 Jan, 2021
+Project started at GMT/UTC +8 1:30pm, 25 Jan, 2021
 
 devEnv: Node v12.13.0
