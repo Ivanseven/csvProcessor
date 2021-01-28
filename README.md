@@ -18,7 +18,9 @@ You will need [Node.js](https://nodejs.org/en/download/) installed to run this a
 	npm install
 
 
-### Usage (After module and config setup, `salary.js` is setup by default)
+### Usage
+(After module and config setup; `salary.js` is setup by default)
+
 After installation, in the csvProcessor directory:
 
 	node fileNav
@@ -49,7 +51,7 @@ The following message should appear, showing you where the output was saved:
  	C:\Code\Projects\Nodejs\salary-calculator/testEmployeesCSV-output.csv
 
 
-## How to setup Modules (Not ready yet)
+## How to setup Modules (TO DO)
 
 ### Module Config
 	- TO DO
@@ -114,5 +116,5 @@ You can achieve the same result with:
 	
 
 #### Project Log Info
-Created on 8+ GMT 1:30pm, 25 Jan, 2021
+Project started at 8+ GMT 1:30pm, 25 Jan, 2021
 devEnv: Node v12.13.0
