@@ -85,7 +85,7 @@ We can write the config like so:
 
 ###### Take note that final calculations are rounded to integers.
 
-#### The way the tax calculation works is soemthing like this:
+#### The way the tax calculation works is similar to this:
 	
 	var income = 50000; var taxableIncome;
 	if(income >= overAmount){
